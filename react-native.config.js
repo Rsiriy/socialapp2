@@ -9,11 +9,17 @@ module.exports = {
         ios: null,
       },
     },
-    'react-native-fbsdk': {
+    'react-native-fbsdk-next': {
       platforms: {
         ios: null,
       },
     },
   },
-  assets: ['./assets/fonts/'], // stays the same
+  assets: [
+    './assets/fonts/Kufam-SemiBoldItalic.ttf',
+    './assets//fonts/Lato-Bold.ttf',
+    './assets//fonts/Lato-BoldItalic.ttf',
+    './assets//fonts/Lato-Italic.ttf',
+    './assets//fonts/Lato-Regular.ttf',
+  ], // stays the same
 };

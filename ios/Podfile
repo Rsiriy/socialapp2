@@ -12,9 +12,7 @@ target 'socialapp2' do
     :hermes_enabled => false
   )
 
-  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
 
-  pod 'react-native-fbsdk-next', :path => '../node_modules/react-native-fbsdk-next'
 
   target 'socialapp2Tests' do
     inherit! :complete
